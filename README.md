@@ -71,16 +71,9 @@ Once the models are trained and saved, launch the web app.
 
 Using the Gradio Interface
 
-    Input: You will see a large text box labeled "Enter Customer Support Ticket Text Here". Type or paste any customer support ticket text into this box.
-
-    Submit: Click the "Submit" button to run your machine learning pipeline on the entered text. The predicted issue type, urgency level, and extracted entities will appear in the output boxes on the right.
-
-    Clear: Click the "Clear" button to clear the input and output fields.
-
-    Flag: The "Flag" button is a built-in Gradio feature for feedback. If you find a prediction particularly good or bad, clicking "Flag" saves the input and output to a local CSV file (usually in a flagged subfolder). This data can be used later to improve the model. It does not re-run the model or change its behavior.
-
-    Sophisticated Entity Extraction: Utilize dedicated Named Entity Recognition (NER) libraries (e.g., spaCy) for more robust and scalable entity extraction.
-
-    Model Optimization: Experiment with different machine learning models (e.g., Random Forest, SVM, Gradient Boosting) and perform hyperparameter tuning using cross-validation to find the best performing models.
-
-    Error Handling and Edge Cases: Improve error handling for unexpected inputs or data formats.
+    - Input: Text box labeled "Enter Customer Support Ticket Text Here". Enter any customer support ticket text here.
+    - Submit
+    - The predicted issue type, urgency level, and extracted entities will appear in the output boxes on the right.
+    - Clear: Click the "Clear" button to clear the input and output fields.
+    - Flag: It is a Gradio feature for feedback. If you find a prediction particularly good or bad, clicking "Flag" saves the input and output to a local CSV file (usually in a flagged subfolder). 
+    This data can be used later to improve the model. It does not re-run the model or change its behavior.
