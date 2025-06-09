@@ -77,3 +77,8 @@ Using the Gradio Interface
     - Clear: Click the "Clear" button to clear the input and output fields.
     - Flag: It is a Gradio feature for feedback. If you find a prediction particularly good or bad, clicking "Flag" saves the input and output to a local CSV file (usually in a flagged subfolder). 
     This data can be used later to improve the model. It does not re-run the model or change its behavior.
+
+
+What the Gradio WebApp Look like output:
+![image](https://github.com/user-attachments/assets/c871947b-6232-4de9-961f-07f1386cc441)
+
